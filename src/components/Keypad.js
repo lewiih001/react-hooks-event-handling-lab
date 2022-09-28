@@ -1,9 +1,13 @@
 // Code Keypad Component Here
+function Keypad(){
+    function handleChange(){
+        console.log('Entering password...')
+    }
+    return(
+        <form>
+            <input type="password" onChange={handleChange}/>
 
-function Keypad (){
-    return (
-        <div></div>
+        </form>
     )
 }
-
-export default Keypad;
+export default Keypad
